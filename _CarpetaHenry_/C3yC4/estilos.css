@@ -1,0 +1,195 @@
+header{
+    font-family: monospace;
+    
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div-logo{
+    width: 34em;
+    height: 32em;
+    margin: 3em 2em 1em 2em;
+    align-items: center;
+    box-sizing: content-box;
+
+    
+}
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95vw;
+    padding-bottom: 1em;
+    border-bottom: #ec672e solid 0.35em;
+    margin-top: 2em;
+}
+
+.button-menu{
+    
+    font-weight: 1000;
+    font-size: 2.3em;
+    padding: 0.4em 0.7em 0.4em 0.7em;
+    color: #ec672e;
+    transition: 0.7s;
+
+}
+.button-menu:hover{
+    background-color: #ec672e;
+    color: white;
+    border-radius: 2em;
+}
+
+.div-sectionproduct{
+    display: flex;
+    justify-content: center;
+}
+
+.product-section{
+    font-family: monospace;
+    display: flex;
+    margin-top: 5em;
+    margin-bottom: 10em;
+    width: 95vw;
+    justify-content: space-between;
+}
+
+.product1{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+}
+
+.product2{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+}
+
+.title-product{
+    font-size: 2.2em;
+    color: white;
+    background-color: #ec672e;
+    padding: 0.3em;
+    text-align: center;
+    font-weight: 1000;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 1em;
+}
+
+.img-product{
+    height: 30em;
+    border: solid #ec672e 0.4em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 1em ;
+    box-sizing: content-box;
+}
+
+.product-value{
+    background-color: #ec672e;
+    color: white;
+    padding: 0.2em 1.5em 0.2em 1.5em;
+    margin: 1em 0em 1em 0em;
+    border-radius: 5em;
+    font-size: 1.7em;
+    font-weight: 100;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+
+.p-product{
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 100;
+    padding: 0.7em 1em;
+    border: #ec672e solid 0.2em;
+    border-radius: 1em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+
+.div-section-nosotros{
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #ec672e;
+}
+
+.section-nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+}
+
+.titulo-nosotros{
+    font-size: 4em;
+    margin: 0.5em;
+    font-weight: 1000;
+    border-bottom: white 0.1em solid;
+}
+
+.p-nosotros{
+    font-size: 2em;
+    text-align: center;
+    padding: 0.5em 2em 2em 2em;
+}
+
+.div-section-contacto{
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.section-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloc-contacto{
+    font-size: 3em;
+    padding: 1em;
+    color: #ec672e;
+}
+
+.ul-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
+input{
+
+    font-family: monospace;
+    font-size: 2em;
+}
+
+
+.div-footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    border-top: black solid 0.2em;
+}
+
+.footer-img{
+    display: flex;
+    width: 3em;
+    height: 3em;
+}
+
+.s{
+
+    fill:#ec672e ;
+}
